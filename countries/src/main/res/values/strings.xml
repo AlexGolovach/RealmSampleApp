@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error">Problems with loading countries</string>
+    <string name="country_details">Country details</string>
+
+    <string name="country">Country: %s</string>
+    <string name="capital">Capital: %s</string>
+    <string name="region">Region: %s</string>
+    <string name="area">Area: %s</string>
+    <string name="population">Population: %s</string>
+    <string name="languages">Languages: %s</string>
+</resources>

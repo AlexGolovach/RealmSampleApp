@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main_navigation"
+    app:startDestination="@id/nav_countries_list">
+
+    <fragment
+        android:id="@+id/nav_countries_list"
+        android:name="com.renovavision.realmsampleapp.countries.list.CountriesListFragment"
+        android:label="Countries list">
+
+        <action
+            android:id="@+id/navigate_to_country_details"
+            app:destination="@id/nav_country_details"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit"
+            app:popEnterAnim="@anim/fragment_fade_enter"
+            app:popExitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_country_details"
+        android:name="com.renovavision.realmsampleapp.countries.details.CountryDetailsFragment"
+        android:label="Match details">
+
+        <argument
+            android:name="country"
+            app:argType="java.io.Serializable"
+            app:nullable="true" />
+    </fragment>
+</navigation>
