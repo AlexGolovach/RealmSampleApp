@@ -6,7 +6,7 @@ import androidx.navigation.fragment.FragmentNavigatorExtras
 import com.renovavision.realmsampleapp.R
 import com.renovavision.realmsampleapp.common.model.Country
 import com.renovavision.realmsampleapp.countries.CountriesNavigator
-import com.renovavision.realmsampleapp.home.list.CountriesListFragmentDirections
+import com.renovavision.realmsampleapp.countries.list.CountriesListFragmentDirections
 import com.renovavision.realmsampleapp.ui.navigation.Navigator
 
 class NavigatorImpl : Navigator, CountriesNavigator {
